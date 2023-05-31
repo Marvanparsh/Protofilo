@@ -1,0 +1,273 @@
+/* {
+    box-sizing: content-box;
+    width: 100%;
+}
+main{
+    background-color: #333;
+}
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: row-reverse;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 750px;
+    background-color: #333;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    padding: 0px;
+    background-color: #333;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}  */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1f1f1f;
+    font: 16px inter, sanns-serif;
+    margin: auto;
+    /* width: 700px;  */
+    padding: 50px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+header h1 span{
+    color: #28e98c;
+}
+
+
+.demo_2{ 
+    background-size: 633px 455px;
+    margin: 40px;
+    padding: 95px 20px;
+    background:  #3a3a3c ;
+    font: 16px inter, sanns-serif;
+    background-position: center top;
+    text-align: center; 
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 25px 25px;
+    
+}
+.demo_2 img{
+    border-radius: 20px;
+    max-width: 100%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: auto;
+    
+}
+
+.title{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.pic_1 img{
+    /* position: relative;
+    border-radius: 20px;
+    max-width: 100%;
+    margin: 100px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: auto; 
+    border-radius: 20px;
+    max-width: 100%;
+    vertical-align: middle;
+    background-position: center 0;
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: auto;  */
+    background-position: center top;
+    text-align: center; 
+    display: block;
+    width: 83%;
+    margin: auto;
+    border-radius: 25px 25px;
+    
+}
+.pic_1 .overlay-text-1{
+    color: white;
+    text-align:center;
+    transition: .3s;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    /* display: inline-block; */
+    /* padding:20px;
+    
+    font-weight: 300;
+    margin: 50px;
+    padding: 50px;
+    position: absolute;
+    top: 860px;
+    left:0;right:0;
+    bottom: 0px;
+    right:20px; */
+}
+.pic_2 img{
+    background-position: center top;
+    text-align: center; 
+    display: block;
+    width: 83%;
+    margin: auto;
+    border-radius: 25px 25px;
+}
+.pic_2 .overlay-text-2{
+    color: white;
+    padding:20px;
+    text-align:center;
+    font-weight: 300;
+    position: absolute;
+    top: 860px;
+    left:0;right:0;
+    bottom: 0px;
+    right:20px;
+}
+.pic_3 img{
+    background-position: center top;
+    text-align: center; 
+    display: block;
+    width: 83%;
+    margin: auto;
+    border-radius: 25px 25px;
+}
+.overlay-text-3{
+    color: white;
+    padding:20px;
+    text-align:center;
+    font-weight: 300;
+    position: absolute;
+    top: 860px;
+    left:0;right:0;
+    bottom: 0px;
+    right:20px;
+}
+.pic_4 img{
+    background-position: center top;
+    text-align: center; 
+    display: block;
+    width: 83%;
+    margin: auto;
+    border-radius: 25px 25px;
+}
+.overlay-text-4{
+    color: white;
+    padding:20px;
+    text-align:center;
+    font-weight: 300;
+    position: absolute;
+    top: 860px;
+    left:0;right:0;
+    bottom: 0px;
+    right:20px;
+}
+.pic_5 img{
+    background-position: center top;
+    text-align: center; 
+    display: block;
+    width: 83%;
+    margin: auto;
+    border-radius: 25px 25px;
+}
+.overlay-text-5{
+    color: white;
+    padding:20px;
+    text-align:center;
+    font-weight: 300;
+    position: absolute;
+    top: 860px;
+    left:0;right:0;
+    bottom: 0px;
+    right:20px;
+}
+.pic_6 img{
+    background-position: center top;
+    text-align: center; 
+    display: block;
+    width: 83%;
+    margin: auto;
+    border-radius: 25px 25px;
+}
+.overlay-text-6{
+    color: white;
+    padding:20px;
+    text-align:center;
+    font-weight: 300;
+    position: absolute;
+    top: 860px;
+    left:0;right:0;
+    bottom: 0px;
+    right:20px;
+}
